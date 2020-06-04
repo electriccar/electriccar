@@ -31,11 +31,9 @@
 /*===========================
     01.COMMON css 
 ===========================*/
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
 body {
-  font-family: "Noto Sans TC", sans-serif;
-  font-weight: normal;
-  font-style: normal;
+font-family: 'Noto Sans TC', sans-serif;
   color: #798795;
   overflow-X: hidden; }
 
@@ -48,7 +46,6 @@ body {
 
 img {
   max-width: 100%; }
-
 
 a:focus,
 input:focus,
@@ -81,8 +78,8 @@ h4,
 h5,
 h6 {
   font-family: "Noto Sans TC", sans-serif;
-  font-weight: 900;
-  color: #f14836;
+  font-weight: 700;
+  color: #404040;
   margin: 0px; }
 
 h1 {
@@ -110,7 +107,6 @@ ul, ol {
 
 p {
   font-size: 14px;
-  font-weight: 400;
   line-height: 24px;
   color: #798795;
   margin: 0px;
@@ -587,7 +583,7 @@ p {
       margin: 0; } }
   .navbar-nav .nav-item a {
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 600;
     color: #222;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
@@ -787,12 +783,9 @@ p {
     color: #f14836;
     display: contents; }
 .header-hero-content .text {
-    max-width: 490px;
-    font-size: 22px;
-    padding-top: 40px;
-    font-weight: 500;
-    font-style: normal;
-}
+  max-width: 490px;
+  font-size: 16px;
+  padding-top: 40px; }
 .header-hero-content .header-singup {
   position: relative;
   margin-top: 120px;
@@ -1725,13 +1718,9 @@ p {
 .single-contact-info .contact-info-content {
   padding-left: 20px; }
   .single-contact-info .contact-info-content .text {
-    color: #222;
-    font-weight: normal;
-}
+    color: #222; }
 .single-contact-info.contact-color-1 .contact-info-icon i {
-    background-color: #222;
-    text-align: center;
-}
+  background-color: #222; }
 .single-contact-info.contact-color-2 .contact-info-icon i {
   background-color: #f23559; }
 .single-contact-info.contact-color-3 .contact-info-icon i {
